@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pemutar Musik YouTube</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="player-container">
+        <h1>Pemutar Musik YouTube</h1>
+        <div class="video-container">
+            <!-- Embed YouTube video -->
+            <iframe id="youtubePlayer" width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID?enablejsapi=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+        <div class="controls">
+            <button onclick="playVideo()">Play</button>
+            <button onclick="pauseVideo()">Pause</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
